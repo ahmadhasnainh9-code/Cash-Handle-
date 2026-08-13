@@ -1,0 +1,17 @@
+name: cash_handle_app
+description: A simple cash handling app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
